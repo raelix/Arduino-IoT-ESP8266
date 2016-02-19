@@ -1,9 +1,3 @@
-/*
-  This a simple example of the aREST Library for the ESP8266 WiFi chip.
-  See the README file for more details.
-
-  Written in 2015 by Marco Schwartz under a GPL license.
-*/
 
 // Import required libraries
 #include <ESP8266WiFi.h>
@@ -13,8 +7,8 @@
 aREST rest = aREST();
 
 // WiFi parameters
-const char* ssid = "NETGEAR65";
-const char* password = "giammi20102011";
+const char* ssid = "xxxx";
+const char* password = "xxx";
 
 // The port to listen for incoming TCP connections
 #define LISTEN_PORT           80
